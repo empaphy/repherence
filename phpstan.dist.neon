@@ -1,0 +1,14 @@
+#includes:
+#    - phpstan-baseline.neon
+
+parameters:
+    level: 9
+    paths:
+        - src/
+    resultCachePath: var/cache/phpstan/resultCache.php
+
+services:
+    cacheStorage:
+        arguments:
+            directory: var/cache/phpstan/cache/PHPStan
+        alteration: true

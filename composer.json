@@ -1,0 +1,19 @@
+{
+    "name": "empaphy/repherence",
+    "description": "Repherence is a library for PHP that intends to emulate C/C++ pointers in PHP.",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1",
+        "phpunit/phpunit": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Empaphy\\Repherence\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
